@@ -15,18 +15,12 @@ Vanilla_CLI/
 ├── CHANGELOG.md           -- F9 and debugger changes, by session
 ├── tests/                 -- Test suite (Linux tree only)
 ├── *.c / *.h              -- Abyss, lsc, lsc-config source files
-├── cmd/
+└── cmd/
 │   ├── wipe               -- Clear a file's contents
 │   ├── clip               -- Copy a file to the clipboard
 │   ├── compil             -- Smart compiler/runner
 │   ├── redem              -- WiFi driver reset
 │   └── tree               -- Directory tree view
-├── bin/
-│   ├── blackjack          -- Blackjack game
-│   └── minesweeper        -- Minesweeper game
-└── scripts/
-    ├── monitoring.py      -- System dashboard
-    └── wifi_monitoring.py -- Network monitor
 ```
 
 ---
