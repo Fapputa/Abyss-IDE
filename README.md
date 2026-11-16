@@ -516,6 +516,7 @@ at a time, run under Abyss and killed with it):
 |-----|--------|
 | `b` | Set / remove a breakpoint on the selected line (`•` in the margin) |
 | `B` | Breakpoint by name: `main`, `main+0x10`, `0x1149`, `.` (selected line), `libc.so.6+0x2a1c0`; add `hw` for a debug register, `if rax == 0x10` for a condition; `-WHERE` removes, `-*` removes all, `!WHERE` turns on / off |
+| `:` | Go to address in .data section or .function section |
 | `e` | Turn the breakpoint of the selected line on / off (`○` when off) |
 | `h` | Debug register (DR0-DR3, `◆`) instead of an `int3`; Linux only |
 | `L` | List of the breakpoints: passes, condition, state |
